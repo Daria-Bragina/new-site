@@ -1,0 +1,419 @@
+@media (min-width: 320px) and  (max-width: 480px) {
+    .arrow-up {
+        right: 10px;
+        bottom: 10px;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+    .menu {
+        transition: transform .5s, visibility .5s;
+        position: absolute;
+        top: 0;
+        right: -360px;
+        min-width: 320px;
+        background-color: #ffffff;
+        padding: 100px 20px 20px 20px;
+        visibility: hidden;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container  {
+        margin: 0 20px;
+    }
+    .main-content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-picture {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .main-image {
+        display: block;
+        width: 240px;
+        height: 240px;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+    }
+    .main-title {
+        margin-top: 20px;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .main-text {
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .projects-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .project-item {
+        width: 280px;
+        padding: 20px;
+    }
+    .project-item-title {
+        font-size: 20px;
+    }
+    .project-item-text {
+        font-size: 16px;
+        line-height: 38px;
+    }
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .about-image img {
+        text-align: center;
+        width: 280px;
+    }
+    .text-point {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .list__item .list__item-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .list__item-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .plan-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan-card {
+        width: 280px;
+        height: 700px;
+    }
+    .plan-card-title {
+        font-size: 20px;
+    }
+    .plan-card-text {
+        font-size: 16px;
+    }
+    .plan-card-info {
+        font-size: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .arrow-up {
+        right: 10px;
+        bottom: 10px;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+    .menu {
+        transition: transform .5s, visibility .5s;
+        position: absolute;
+        right: -540px;
+        top: 0;
+        min-width: 482px;
+        background-color: #ffffff;
+        padding: 100px 20px 20px 20px;
+        visibility: hidden;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container  {
+        margin: 0 20px;
+    }
+    .main-content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-picture {
+        text-align: center;
+    }
+    .main-image {
+        width: 240px;
+        height: 240px;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+    }
+    .main-title {
+        margin-top: 20px;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .main-text {
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .projects-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .project-item {
+        width: 380px;
+        padding: 20px 30px;
+    }
+    .project-item-title {
+        font-size: 20px;
+    }
+    .project-item-text {
+        font-size: 16px;
+        line-height: 38px;
+    }
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .about-image img {
+        text-align: center;
+        width: 280px;
+    }
+    .text-point {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .list__item .list__item-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .list__item-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .plan-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan-card {
+        width: 280px;
+        height: 700px;
+    }
+    .plan-card-title {
+        font-size: 20px;
+    }
+    .plan-card-text {
+        font-size: 16px;
+    }
+    .plan-card-info {
+        font-size: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .arrow-up {
+        right: 20px;
+        bottom: 20px;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+    .menu {
+        transition: transform .5s, visibility .5s;
+        position: absolute;
+        right: -840px;
+        top: 0;
+        min-width: 770px;
+        background-color: #ffffff;
+        padding: 100px 20px 20px 20px;
+        visibility: hidden;
+    }
+    .menu-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container {
+        margin: 0 50px;
+    }
+    .menu-list {
+        display: flex;
+    }
+    .main-content-info {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .main-image {
+        display: block;
+        vertical-align: center;
+        width: 380px;
+    }
+    .main-title {
+        font-size: 58px;
+        line-height: 80px;
+    }
+    .main-text {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .projects-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .project-item {
+        width: 420px;
+    }
+    .project-item-title {
+        font-size: 24px;
+    }
+    .project-item-text {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .about-info {
+        display: flex;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .about-image img {
+        width: 340px;
+    }
+    .text-point {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .list__item .list__item-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .list__item-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .plan-cards {
+        display: flex;
+        flex-wrap: wrap;
+        /*flex-direction: column;*/
+        align-items: center;
+    }
+    .plan-card {
+        height: 760px;
+        width: 330px;
+    }
+    .plan-card-title {
+        font-size: 20px;
+    }
+    .plan-card-text {
+        font-size: 18px;
+    }
+    .plan-card-info {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1025px) {
+    .arrow-up {
+        right: 50px;
+        bottom: 50px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .menu-list {
+        display: flex;
+    }
+    .main-content-info {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        box-sizing: border-box;
+    }
+    .main-image {
+        display: block;
+        vertical-align: center;
+        width: 100%;
+    }
+    .main-title {
+        font-size: 46px;
+        line-height: 54px;
+        margin-bottom: 40px;
+    }
+    .main-text {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .projects-info {
+        display: flex;
+        flex-direction: row;
+    }
+    .project-item {
+        width: 420px;
+    }
+    .project-item-title {
+        font-size: 24px;
+    }
+    .project-item-text {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .about-info {
+        display: flex;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+        justify-content: space-between;
+        gap: 90px;
+    }
+    .text-point {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .list__item .list__item-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .list__item-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .plan-cards {
+        display: flex;
+        flex-direction: row;
+    }
+    .plan-card {
+        height: 760px;
+        width: 330px;
+    }
+    .plan-card-title {
+        font-size: 24px;
+    }
+    .plan-card-text {
+        font-size: 18px;
+    }
+    .plan-card-info {
+        font-size: 24px;
+    }
+}

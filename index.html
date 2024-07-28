@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adopt.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<div class="arrow-up" title="Вверх" id="arrow-up">
+    <?xml version="1.0" encoding="utf-8"?>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.6569 8.96207L16.2394 10.373L12.9845 7.10273L12.9708 20.7078L10.9708 20.7058L10.9844 7.13793L7.75416 10.3531L6.34326 8.93559L12.0133 3.29199L17.6569 8.96207Z"
+              fill="#000000"/>
+    </svg>
+</div>
+
+<div class="body-wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-menu">
+                <div class="logo">
+                    <img src="" alt="logo">
+                </div>
+
+                <nav class="menu" id="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a data-link="main">Главная</a></li>
+                        <li class="menu-item"><a data-link="about-me">Обо мне</a></li>
+                        <li class="menu-item"><a data-link="about-course">О курсе</a></li>
+                        <li class="menu-item"><a data-link="price">Тарифы</a></li>
+                        <li class="menu-item"><a data-link="contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content" id="main">
+        <div class="container">
+            <div class="main-content-info">
+                <div class="main-picture">
+                    <picture>
+                        <source media="(min-width: 769px)" srcset="images/042-Photoroom.png">
+                        <source media="(min-width: 320px)" srcset="images/042-Photoroom-1.png">
+                        <img class="main-image" src="images/042-Photoroom.png" alt="main-picture">
+                    </picture>
+                </div>
+                <div class="main-info">
+                    <h1 class="main-title">Привет! Меня зовут Анна Архицкая</h1>
+                    <p class="main-text">Я врач-онколог, онкомаммолог, педагог дополнительного образования</p>
+                    <p class="main-text">Здесь Вы можете найти ссылки на мои основные проекты</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="projects-info">
+                <div class="project-item">
+                    <img class="project-item-image" src="images/user-svgrepo-com.png" alt="project">
+                    <h3 class="project-item-title">Авторский проект "Ближе к телу"</h3>
+                    <ul class="project-item-list">
+                        <li class="project-item-text">Интервью с врачами и психологами о нашем теле</li>
+                        <li class="project-item-text">Мы говорим о медицине простым языком</li>
+                        <li class="project-item-text">Интересно будет как коллегам, так и интересующимся</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <img class="project-item-image" src="images/activity-svgrepo-com.png" alt="project">
+                    <h3 class="project-item-title">#ПроектСопровождение</h3>
+                    <ul class="project-item-list">
+                        <li class="project-item-text">Проект для неонкологов (и онкологов)</li>
+                        <li class="project-item-text">Задача проекта: обучить коллег принципам сопроводительной терапии у пациентов онкопрофиля</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about-me">
+        <div class="container">
+            <h2 class="common-title">Обо мне</h2>
+            <div class="about-info">
+                <div class="about-image">
+                    <img class="about-img" src="images/056-1.jpg" alt="about-image">
+                </div>
+                <div class="about-texts">
+                    <div class="text-points">
+                        <img src="images/angle-bottom-svgrepo-com.png" alt="point">
+                        <p class="text-point">Окончила Волгоградский Государственный Медицинский университет, лечебное
+                            дело НМИЦ онкологии им. Н.Н.Петрова, ординатура онкология.</p>
+                    </div>
+                    <div class="text-points">
+                        <img src="images/angle-bottom-svgrepo-com.png" alt="point">
+                        <p class="text-point">Проводила благотворительные осмотры, более чем в 20 городах России.</p>
+                    </div>
+                    <div class="text-points">
+                        <img src="images/angle-bottom-svgrepo-com.png" alt="point">
+                        <p class="text-point">Автор книги: Найти и вылечить рак.</p>
+                    </div>
+                    <div class="text-points">
+                        <img src="images/angle-bottom-svgrepo-com.png" alt="point">
+                        <p class="text-point">Директор АНО ДЦПО "Доказательная Медицина".</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-course" id="about-course">
+        <div class="container">
+            <h2 class="common-title">О курсе</h2>
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <div class="container">
+            <h2 class="common-title">Тарифы</h2>
+
+            <div class="plan-cards">
+
+                <div class="plan-card">
+                    <div class="plan-card-image">
+                        <img src="images/Free.png" alt="free">
+                    </div>
+                    <div class="plan-card-details">
+                        <h3 class="plan-card-title">Lorem ipsum</h3>
+                        <div class="ticks-and-points">
+                            <div class="ticks">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                            </div>
+                            <ul class="plan-card-text">
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                            </ul>
+                        </div>
+
+                        <div class="plan-card-extra">
+                            <div class="plan-card-info">
+                                <div class="plan-card-price">Lorem ipsum</div>
+                            </div>
+                            <button class="button">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-card-image">
+                        <img src="images/Standard.png" alt="standard">
+                    </div>
+                    <div class="plan-card-details">
+                        <h3 class="plan-card-title">Lorem ipsum</h3>
+                        <div class="ticks-and-points">
+                            <div class="ticks">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                            </div>
+                            <ul class="plan-card-text">
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                            </ul>
+                        </div>
+                        <div class="plan-card-extra">
+                            <div class="plan-card-info">
+                                <div class="plan-card-price">Lorem ipsum</div>
+                            </div>
+                            <button class="button">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-card-image">
+                        <img src="images/Premium.png" alt="premium">
+                    </div>
+                    <div class="plan-card-details">
+                        <h3 class="plan-card-title">Lorem ipsum</h3>
+                        <div class="ticks-and-points">
+                            <div class="ticks">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                                <img src="images/check-svgrepo-com.png" alt="check">
+                            </div>
+                            <ul class="plan-card-text">
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                                <li class="plan-card-point">Lorem ipsum, dolor sit</li>
+                            </ul>
+                        </div>
+                        <div class="plan-card-extra">
+                            <div class="plan-card-info">
+                                <div class="plan-card-price">Lorem ipsum</div>
+                            </div>
+                            <button class="button">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="contacts">
+                <div class="contacts-links">
+                    <div class="contact-images">
+                        <img src="images/efficiency-svgrepo-com.png" alt="telegram">
+                        <img src="images/icons8-vk-circled-50.png" alt="telegram">
+                    </div>
+                    <ul class="contact-list">
+                        <li class="contact"><a class="contact-link" href="#">Я в Telegram</a></li>
+                        <li class="contact"><a class="contact-link" href="#">Я ВКонтакте</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-info">
+                    <p class="contact-info">Lorem ipsum, dolor sit</p>
+                    <p class="contact-info">Lorem ipsum, dolor sit</p>
+                    <p class="contact-info">Lorem ipsum, dolor sit</p>
+                </div>
+                <div class="contact-email">Lorem ipsum@dolor.sit</div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script defer src="scripts/script.js"></script>
+</body>
+</html>
